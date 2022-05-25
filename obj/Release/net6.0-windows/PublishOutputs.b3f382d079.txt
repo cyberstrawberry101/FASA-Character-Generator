@@ -1,0 +1,5 @@
+C:\Users\nicole.rappe\source\repos\FASA_Character_Generator\bin\Release\net6.0-windows\publish\FASA_Character_Generator.exe
+C:\Users\nicole.rappe\source\repos\FASA_Character_Generator\bin\Release\net6.0-windows\publish\FASA_Character_Generator.dll
+C:\Users\nicole.rappe\source\repos\FASA_Character_Generator\bin\Release\net6.0-windows\publish\FASA_Character_Generator.deps.json
+C:\Users\nicole.rappe\source\repos\FASA_Character_Generator\bin\Release\net6.0-windows\publish\FASA_Character_Generator.runtimeconfig.json
+C:\Users\nicole.rappe\source\repos\FASA_Character_Generator\bin\Release\net6.0-windows\publish\FASA_Character_Generator.pdb

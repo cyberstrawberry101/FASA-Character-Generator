@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(268, 155);
+            this.ClientSize = new System.Drawing.Size(300, 191);
             this.Name = "WindowJumper";
             this.Text = "WindowJumper";
             this.ResumeLayout(false);

@@ -28,58 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtStatStrength = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtStatEndurance = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtStatDexterity = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtStatIntellect = new System.Windows.Forms.TextBox();
+            this.txtStatWillpower = new System.Windows.Forms.TextBox();
+            this.txtStatPsionic = new System.Windows.Forms.TextBox();
+            this.txtStatLuck = new System.Windows.Forms.TextBox();
+            this.txtStatCharisma = new System.Windows.Forms.TextBox();
+            this.txtStatTotal = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnStoreStats = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txtStatEmpathy = new System.Windows.Forms.TextBox();
+            this.txtStatBravery = new System.Windows.Forms.TextBox();
+            this.txtStatComposure = new System.Windows.Forms.TextBox();
+            this.txtStatEnergy = new System.Windows.Forms.TextBox();
+            this.txtStatEthics = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.txtStatMorality = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.txtStatMotivation = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.txtStatCoolness = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.txtStatAttitude = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.txtRerollCounter = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.txtStatHumility = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtStatStrength
             // 
-            this.textBox1.Location = new System.Drawing.Point(93, 9);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(50, 23);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "15";
+            this.txtStatStrength.Location = new System.Drawing.Point(93, 9);
+            this.txtStatStrength.Name = "txtStatStrength";
+            this.txtStatStrength.Size = new System.Drawing.Size(50, 23);
+            this.txtStatStrength.TabIndex = 0;
+            this.txtStatStrength.Text = "15";
             // 
             // label1
             // 
@@ -91,13 +91,13 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Strength";
             // 
-            // textBox2
+            // txtStatEndurance
             // 
-            this.textBox2.Location = new System.Drawing.Point(93, 43);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(50, 23);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "15";
+            this.txtStatEndurance.Location = new System.Drawing.Point(93, 43);
+            this.txtStatEndurance.Name = "txtStatEndurance";
+            this.txtStatEndurance.Size = new System.Drawing.Size(50, 23);
+            this.txtStatEndurance.TabIndex = 2;
+            this.txtStatEndurance.Text = "15";
             // 
             // label2
             // 
@@ -119,13 +119,13 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Dexterity";
             // 
-            // textBox3
+            // txtStatDexterity
             // 
-            this.textBox3.Location = new System.Drawing.Point(93, 111);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(50, 23);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "15";
+            this.txtStatDexterity.Location = new System.Drawing.Point(93, 111);
+            this.txtStatDexterity.Name = "txtStatDexterity";
+            this.txtStatDexterity.Size = new System.Drawing.Size(50, 23);
+            this.txtStatDexterity.TabIndex = 6;
+            this.txtStatDexterity.Text = "15";
             // 
             // label4
             // 
@@ -137,53 +137,54 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Intellect";
             // 
-            // textBox4
+            // txtStatIntellect
             // 
-            this.textBox4.Location = new System.Drawing.Point(93, 77);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(50, 23);
-            this.textBox4.TabIndex = 4;
-            this.textBox4.Text = "15";
+            this.txtStatIntellect.Location = new System.Drawing.Point(93, 77);
+            this.txtStatIntellect.Name = "txtStatIntellect";
+            this.txtStatIntellect.Size = new System.Drawing.Size(50, 23);
+            this.txtStatIntellect.TabIndex = 4;
+            this.txtStatIntellect.Text = "15";
             // 
-            // textBox5
+            // txtStatWillpower
             // 
-            this.textBox5.Location = new System.Drawing.Point(93, 247);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(50, 23);
-            this.textBox5.TabIndex = 11;
-            this.textBox5.Text = "15";
+            this.txtStatWillpower.Location = new System.Drawing.Point(283, 349);
+            this.txtStatWillpower.Name = "txtStatWillpower";
+            this.txtStatWillpower.Size = new System.Drawing.Size(50, 23);
+            this.txtStatWillpower.TabIndex = 11;
+            this.txtStatWillpower.Text = "1337";
             // 
-            // textBox6
+            // txtStatPsionic
             // 
-            this.textBox6.Location = new System.Drawing.Point(93, 213);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(50, 23);
-            this.textBox6.TabIndex = 10;
-            this.textBox6.Text = "15";
+            this.txtStatPsionic.Location = new System.Drawing.Point(93, 213);
+            this.txtStatPsionic.Name = "txtStatPsionic";
+            this.txtStatPsionic.Size = new System.Drawing.Size(50, 23);
+            this.txtStatPsionic.TabIndex = 10;
+            this.txtStatPsionic.Text = "15";
             // 
-            // textBox7
+            // txtStatLuck
             // 
-            this.textBox7.Location = new System.Drawing.Point(93, 179);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(50, 23);
-            this.textBox7.TabIndex = 9;
-            this.textBox7.Text = "15";
+            this.txtStatLuck.Location = new System.Drawing.Point(93, 179);
+            this.txtStatLuck.Name = "txtStatLuck";
+            this.txtStatLuck.Size = new System.Drawing.Size(50, 23);
+            this.txtStatLuck.TabIndex = 9;
+            this.txtStatLuck.Text = "15";
             // 
-            // textBox8
+            // txtStatCharisma
             // 
-            this.textBox8.Location = new System.Drawing.Point(93, 145);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(50, 23);
-            this.textBox8.TabIndex = 8;
-            this.textBox8.Text = "15";
+            this.txtStatCharisma.Location = new System.Drawing.Point(93, 145);
+            this.txtStatCharisma.Name = "txtStatCharisma";
+            this.txtStatCharisma.Size = new System.Drawing.Size(50, 23);
+            this.txtStatCharisma.TabIndex = 8;
+            this.txtStatCharisma.Text = "15";
             // 
-            // textBox9
+            // txtStatTotal
             // 
-            this.textBox9.Location = new System.Drawing.Point(93, 281);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(50, 23);
-            this.textBox9.TabIndex = 12;
-            this.textBox9.Text = "15";
+            this.txtStatTotal.Enabled = false;
+            this.txtStatTotal.Location = new System.Drawing.Point(93, 247);
+            this.txtStatTotal.Name = "txtStatTotal";
+            this.txtStatTotal.Size = new System.Drawing.Size(50, 23);
+            this.txtStatTotal.TabIndex = 12;
+            this.txtStatTotal.Text = "15";
             // 
             // label5
             // 
@@ -219,7 +220,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(12, 247);
+            this.label8.Location = new System.Drawing.Point(202, 349);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(71, 17);
             this.label8.TabIndex = 13;
@@ -229,7 +230,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(12, 281);
+            this.label9.Location = new System.Drawing.Point(12, 247);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(39, 17);
             this.label9.TabIndex = 13;
@@ -237,8 +238,9 @@
             // 
             // button1
             // 
+            this.button1.Enabled = false;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(12, 320);
+            this.button1.Location = new System.Drawing.Point(70, 436);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 14;
@@ -246,21 +248,21 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnStoreStats
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(12, 349);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Accept";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnStoreStats.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnStoreStats.Location = new System.Drawing.Point(12, 349);
+            this.btnStoreStats.Name = "btnStoreStats";
+            this.btnStoreStats.Size = new System.Drawing.Size(75, 23);
+            this.btnStoreStats.TabIndex = 15;
+            this.btnStoreStats.Text = "Accept";
+            this.btnStoreStats.UseVisualStyleBackColor = true;
+            this.btnStoreStats.Click += new System.EventHandler(this.btnStoreStats_Click);
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(93, 349);
+            this.button3.Location = new System.Drawing.Point(151, 437);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 16;
@@ -317,45 +319,45 @@
             this.label14.TabIndex = 30;
             this.label14.Text = "Ethics";
             // 
-            // textBox10
+            // txtStatEmpathy
             // 
-            this.textBox10.Location = new System.Drawing.Point(283, 281);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(50, 23);
-            this.textBox10.TabIndex = 29;
-            this.textBox10.Text = "15";
+            this.txtStatEmpathy.Location = new System.Drawing.Point(283, 281);
+            this.txtStatEmpathy.Name = "txtStatEmpathy";
+            this.txtStatEmpathy.Size = new System.Drawing.Size(50, 23);
+            this.txtStatEmpathy.TabIndex = 29;
+            this.txtStatEmpathy.Text = "1337";
             // 
-            // textBox11
+            // txtStatBravery
             // 
-            this.textBox11.Location = new System.Drawing.Point(283, 247);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(50, 23);
-            this.textBox11.TabIndex = 28;
-            this.textBox11.Text = "15";
+            this.txtStatBravery.Location = new System.Drawing.Point(283, 247);
+            this.txtStatBravery.Name = "txtStatBravery";
+            this.txtStatBravery.Size = new System.Drawing.Size(50, 23);
+            this.txtStatBravery.TabIndex = 28;
+            this.txtStatBravery.Text = "1337";
             // 
-            // textBox12
+            // txtStatComposure
             // 
-            this.textBox12.Location = new System.Drawing.Point(283, 213);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(50, 23);
-            this.textBox12.TabIndex = 27;
-            this.textBox12.Text = "15";
+            this.txtStatComposure.Location = new System.Drawing.Point(283, 213);
+            this.txtStatComposure.Name = "txtStatComposure";
+            this.txtStatComposure.Size = new System.Drawing.Size(50, 23);
+            this.txtStatComposure.TabIndex = 27;
+            this.txtStatComposure.Text = "1337";
             // 
-            // textBox13
+            // txtStatEnergy
             // 
-            this.textBox13.Location = new System.Drawing.Point(283, 179);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(50, 23);
-            this.textBox13.TabIndex = 26;
-            this.textBox13.Text = "15";
+            this.txtStatEnergy.Location = new System.Drawing.Point(283, 179);
+            this.txtStatEnergy.Name = "txtStatEnergy";
+            this.txtStatEnergy.Size = new System.Drawing.Size(50, 23);
+            this.txtStatEnergy.TabIndex = 26;
+            this.txtStatEnergy.Text = "1337";
             // 
-            // textBox14
+            // txtStatEthics
             // 
-            this.textBox14.Location = new System.Drawing.Point(283, 145);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(50, 23);
-            this.textBox14.TabIndex = 25;
-            this.textBox14.Text = "15";
+            this.txtStatEthics.Location = new System.Drawing.Point(283, 145);
+            this.txtStatEthics.Name = "txtStatEthics";
+            this.txtStatEthics.Size = new System.Drawing.Size(50, 23);
+            this.txtStatEthics.TabIndex = 25;
+            this.txtStatEthics.Text = "1337";
             // 
             // label15
             // 
@@ -367,13 +369,13 @@
             this.label15.TabIndex = 24;
             this.label15.Text = "Morality";
             // 
-            // textBox15
+            // txtStatMorality
             // 
-            this.textBox15.Location = new System.Drawing.Point(283, 111);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(50, 23);
-            this.textBox15.TabIndex = 23;
-            this.textBox15.Text = "15";
+            this.txtStatMorality.Location = new System.Drawing.Point(283, 111);
+            this.txtStatMorality.Name = "txtStatMorality";
+            this.txtStatMorality.Size = new System.Drawing.Size(50, 23);
+            this.txtStatMorality.TabIndex = 23;
+            this.txtStatMorality.Text = "1337";
             // 
             // label16
             // 
@@ -385,13 +387,13 @@
             this.label16.TabIndex = 22;
             this.label16.Text = "Motivation";
             // 
-            // textBox16
+            // txtStatMotivation
             // 
-            this.textBox16.Location = new System.Drawing.Point(283, 77);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(50, 23);
-            this.textBox16.TabIndex = 21;
-            this.textBox16.Text = "15";
+            this.txtStatMotivation.Location = new System.Drawing.Point(283, 77);
+            this.txtStatMotivation.Name = "txtStatMotivation";
+            this.txtStatMotivation.Size = new System.Drawing.Size(50, 23);
+            this.txtStatMotivation.TabIndex = 21;
+            this.txtStatMotivation.Text = "1337";
             // 
             // label17
             // 
@@ -403,13 +405,13 @@
             this.label17.TabIndex = 20;
             this.label17.Text = "Coolness";
             // 
-            // textBox17
+            // txtStatCoolness
             // 
-            this.textBox17.Location = new System.Drawing.Point(283, 43);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(50, 23);
-            this.textBox17.TabIndex = 19;
-            this.textBox17.Text = "15";
+            this.txtStatCoolness.Location = new System.Drawing.Point(283, 43);
+            this.txtStatCoolness.Name = "txtStatCoolness";
+            this.txtStatCoolness.Size = new System.Drawing.Size(50, 23);
+            this.txtStatCoolness.TabIndex = 19;
+            this.txtStatCoolness.Text = "1337";
             // 
             // label18
             // 
@@ -421,19 +423,19 @@
             this.label18.TabIndex = 18;
             this.label18.Text = "Attitude";
             // 
-            // textBox18
+            // txtStatAttitude
             // 
-            this.textBox18.Location = new System.Drawing.Point(283, 9);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(50, 23);
-            this.textBox18.TabIndex = 17;
-            this.textBox18.Text = "15";
+            this.txtStatAttitude.Location = new System.Drawing.Point(283, 9);
+            this.txtStatAttitude.Name = "txtStatAttitude";
+            this.txtStatAttitude.Size = new System.Drawing.Size(50, 23);
+            this.txtStatAttitude.TabIndex = 17;
+            this.txtStatAttitude.Text = "1337";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(203, 349);
+            this.label19.Location = new System.Drawing.Point(243, 442);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(58, 17);
             this.label19.TabIndex = 38;
@@ -451,71 +453,73 @@
             // 
             // txtRerollCounter
             // 
-            this.txtRerollCounter.Location = new System.Drawing.Point(283, 349);
+            this.txtRerollCounter.Location = new System.Drawing.Point(14, 437);
             this.txtRerollCounter.Name = "txtRerollCounter";
             this.txtRerollCounter.Size = new System.Drawing.Size(50, 23);
             this.txtRerollCounter.TabIndex = 36;
             this.txtRerollCounter.Text = "0";
             // 
-            // textBox20
+            // txtStatHumility
             // 
-            this.textBox20.Location = new System.Drawing.Point(283, 315);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(50, 23);
-            this.textBox20.TabIndex = 35;
-            this.textBox20.Text = "15";
+            this.txtStatHumility.Location = new System.Drawing.Point(283, 315);
+            this.txtStatHumility.Name = "txtStatHumility";
+            this.txtStatHumility.Size = new System.Drawing.Size(50, 23);
+            this.txtStatHumility.TabIndex = 35;
+            this.txtStatHumility.Text = "1337";
             // 
             // CharacteristicSelection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 384);
+            this.ClientSize = new System.Drawing.Size(350, 387);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.txtRerollCounter);
-            this.Controls.Add(this.textBox20);
+            this.Controls.Add(this.txtStatHumility);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.txtStatEmpathy);
+            this.Controls.Add(this.txtStatBravery);
+            this.Controls.Add(this.txtStatComposure);
+            this.Controls.Add(this.txtStatEnergy);
+            this.Controls.Add(this.txtStatEthics);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.txtStatMorality);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.textBox16);
+            this.Controls.Add(this.txtStatMotivation);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.textBox17);
+            this.Controls.Add(this.txtStatCoolness);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.textBox18);
+            this.Controls.Add(this.txtStatAttitude);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnStoreStats);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtStatTotal);
+            this.Controls.Add(this.txtStatWillpower);
+            this.Controls.Add(this.txtStatPsionic);
+            this.Controls.Add(this.txtStatLuck);
+            this.Controls.Add(this.txtStatCharisma);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtStatDexterity);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtStatIntellect);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtStatEndurance);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtStatStrength);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "CharacteristicSelection";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Characteristic Selection";
+            this.Load += new System.EventHandler(this.CharacteristicSelection_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -523,48 +527,48 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox txtStatStrength;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox txtStatEndurance;
         private Label label2;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox txtStatDexterity;
         private Label label4;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
+        private TextBox txtStatIntellect;
+        private TextBox txtStatWillpower;
+        private TextBox txtStatPsionic;
+        private TextBox txtStatLuck;
+        private TextBox txtStatCharisma;
+        private TextBox txtStatTotal;
         private Label label5;
         private Label label6;
         private Label label7;
         private Label label8;
         private Label label9;
         private Button button1;
-        private Button button2;
+        private Button btnStoreStats;
         private Button button3;
         private Label label10;
         private Label label11;
         private Label label12;
         private Label label13;
         private Label label14;
-        private TextBox textBox10;
-        private TextBox textBox11;
-        private TextBox textBox12;
-        private TextBox textBox13;
-        private TextBox textBox14;
+        private TextBox txtStatEmpathy;
+        private TextBox txtStatBravery;
+        private TextBox txtStatComposure;
+        private TextBox txtStatEnergy;
+        private TextBox txtStatEthics;
         private Label label15;
-        private TextBox textBox15;
+        private TextBox txtStatMorality;
         private Label label16;
-        private TextBox textBox16;
+        private TextBox txtStatMotivation;
         private Label label17;
-        private TextBox textBox17;
+        private TextBox txtStatCoolness;
         private Label label18;
-        private TextBox textBox18;
+        private TextBox txtStatAttitude;
         private Label label19;
         private Label label20;
         private TextBox txtRerollCounter;
-        private TextBox textBox20;
+        private TextBox txtStatHumility;
     }
 }

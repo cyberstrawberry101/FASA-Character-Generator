@@ -31,13 +31,16 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newCharacterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.debugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dumpCharacterStatsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.debugToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -58,6 +61,21 @@
             this.newCharacterToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.newCharacterToolStripMenuItem.Text = "New Character";
             this.newCharacterToolStripMenuItem.Click += new System.EventHandler(this.newCharacterToolStripMenuItem_Click);
+            // 
+            // debugToolStripMenuItem
+            // 
+            this.debugToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dumpCharacterStatsToolStripMenuItem});
+            this.debugToolStripMenuItem.Name = "debugToolStripMenuItem";
+            this.debugToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.debugToolStripMenuItem.Text = "Debug";
+            // 
+            // dumpCharacterStatsToolStripMenuItem
+            // 
+            this.dumpCharacterStatsToolStripMenuItem.Name = "dumpCharacterStatsToolStripMenuItem";
+            this.dumpCharacterStatsToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.dumpCharacterStatsToolStripMenuItem.Text = "Dump Character Stats";
+            this.dumpCharacterStatsToolStripMenuItem.Click += new System.EventHandler(this.dumpCharacterStatsToolStripMenuItem_Click);
             // 
             // Main
             // 
@@ -82,5 +100,7 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem fileToolStripMenuItem;
         private ToolStripMenuItem newCharacterToolStripMenuItem;
+        private ToolStripMenuItem debugToolStripMenuItem;
+        private ToolStripMenuItem dumpCharacterStatsToolStripMenuItem;
     }
 }

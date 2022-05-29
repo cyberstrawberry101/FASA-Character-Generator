@@ -84,7 +84,7 @@
             // 
             // ServiceSelection
             // 
-            this.ClientSize = new System.Drawing.Size(285, 176);
+            this.ClientSize = new System.Drawing.Size(285, 173);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox2);
             this.Name = "ServiceSelection";

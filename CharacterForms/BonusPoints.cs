@@ -14,7 +14,6 @@ namespace FASA_Character_Generator
     {
         //Store the total number of points on form load, and compare against every time a value is changed,
         //to understand the differential from the Bonus Points
-        public int StatPointRecord;
         public int IntellectBonus;
         public BonusPoints()
         {
@@ -64,35 +63,75 @@ namespace FASA_Character_Generator
             txtStatWillpower.Minimum = WindowJumper.WindowJumperInstance.CharacterStats.Willpower;
         }
 
-        private void RecalculateBonusBalance(int CurrentStat, int OriginalStat, int BonusNumber)
+        private void RecalculateBonusBalance()
         {
-            if ((BonusNumber >= 0) && (CurrentStat > OriginalStat)) //Good
-            {
-                txtBonusPoints.Text = (int.Parse(txtBonusPoints.Text) - 1).ToString();
-            }
-            if ((BonusNumber >= 0) && (CurrentStat > OriginalStat)) //Good
-            {
-                txtBonusPoints.Text = (int.Parse(txtBonusPoints.Text) - 1).ToString();
-            }
+            int rollingDelta = 0;
+            rollingDelta = rollingDelta + int.Parse(txtStatStrength.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Strength;
+            rollingDelta = rollingDelta + int.Parse(txtStatAttitude.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Attitude;
+            rollingDelta = rollingDelta + int.Parse(txtStatBravery.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Bravery;
+            rollingDelta = rollingDelta + int.Parse(txtStatCharisma.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Charisma;
+            rollingDelta = rollingDelta + int.Parse(txtStatComposure.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Composure;
+            rollingDelta = rollingDelta + int.Parse(txtStatDexterity.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Dexterity;
+            rollingDelta = rollingDelta + int.Parse(txtStatEmpathy.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Empathy;
+            rollingDelta = rollingDelta + int.Parse(txtStatEndurance.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Endurance;
+            rollingDelta = rollingDelta + int.Parse(txtStatEnergy.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Energy;
+            rollingDelta = rollingDelta + int.Parse(txtStatEthics.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Ethics;
+            rollingDelta = rollingDelta + int.Parse(txtStatHumility.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Humility;
+            rollingDelta = rollingDelta + int.Parse(txtStatIntellect.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Intellect;
+            rollingDelta = rollingDelta + int.Parse(txtStatLuck.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Luck;
+            rollingDelta = rollingDelta + int.Parse(txtStatMorality.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Morality;
+            rollingDelta = rollingDelta + int.Parse(txtStatMotivation.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Motivation;
+            rollingDelta = rollingDelta + int.Parse(txtStatPsionic.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Psionic;
+            rollingDelta = rollingDelta + int.Parse(txtStatWillpower.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Willpower;
+            txtBonusPoints.Text = (IntellectBonus - rollingDelta + 1).ToString();
         }
         private void BonusPoints_Load(object sender, EventArgs e)
         {
             PopulateStatsFromClass();
             //Take the intellect of the character, divide it in half, and store it as the bonus points
             //Convert to a double in case numbers are odd and leave us with decimal points
-            double IntellectBonus = Convert.ToDouble((int.Parse(txtStatIntellect.Text)));
+            double IntellectBonus = Convert.ToDouble(WindowJumper.WindowJumperInstance.CharacterStats.Intellect);
 
             //Take the Intellect and divide in half, then round down
             IntellectBonus = Math.Floor(IntellectBonus / 2);
 
             //Store the rounded-down value back into the bonus points window and into a global variable
             txtBonusPoints.Text = IntellectBonus.ToString();
-            StatPointRecord = int.Parse(txtStatCharisma.Text) + int.Parse(txtStatDexterity.Text) + int.Parse(txtStatEndurance.Text) + int.Parse(txtStatStrength.Text) + int.Parse(txtStatIntellect.Text) + int.Parse(txtStatLuck.Text) + int.Parse(txtStatPsionic.Text);
         }
 
         private void txtStatStrength_ValueChanged(object sender, EventArgs e)
         {
-            RecalculateBonusBalance(int.Parse(txtStatStrength.Text), WindowJumper.WindowJumperInstance.CharacterStats.Strength, IntellectBonus);
+            RecalculateBonusBalance();
+        }
+
+        private void txtStatEndurance_ValueChanged(object sender, EventArgs e)
+        {
+            RecalculateBonusBalance();
+        }
+
+        private void txtStatIntellect_ValueChanged(object sender, EventArgs e)
+        {
+            RecalculateBonusBalance();
+        }
+
+        private void txtStatDexterity_ValueChanged(object sender, EventArgs e)
+        {
+            RecalculateBonusBalance();
+        }
+
+        private void txtStatCharisma_ValueChanged(object sender, EventArgs e)
+        {
+            RecalculateBonusBalance();
+        }
+
+        private void txtStatLuck_ValueChanged(object sender, EventArgs e)
+        {
+            RecalculateBonusBalance();
+        }
+
+        private void txtStatPsionic_ValueChanged(object sender, EventArgs e)
+        {
+            RecalculateBonusBalance();
         }
     }
 }

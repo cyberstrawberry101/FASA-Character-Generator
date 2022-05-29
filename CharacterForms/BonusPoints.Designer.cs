@@ -373,6 +373,7 @@
             this.txtStatCharisma.Name = "txtStatCharisma";
             this.txtStatCharisma.Size = new System.Drawing.Size(50, 23);
             this.txtStatCharisma.TabIndex = 87;
+            this.txtStatCharisma.ValueChanged += new System.EventHandler(this.txtStatCharisma_ValueChanged);
             // 
             // txtStatIntellect
             // 
@@ -380,6 +381,7 @@
             this.txtStatIntellect.Name = "txtStatIntellect";
             this.txtStatIntellect.Size = new System.Drawing.Size(50, 23);
             this.txtStatIntellect.TabIndex = 88;
+            this.txtStatIntellect.ValueChanged += new System.EventHandler(this.txtStatIntellect_ValueChanged);
             // 
             // txtStatEndurance
             // 
@@ -387,6 +389,7 @@
             this.txtStatEndurance.Name = "txtStatEndurance";
             this.txtStatEndurance.Size = new System.Drawing.Size(50, 23);
             this.txtStatEndurance.TabIndex = 89;
+            this.txtStatEndurance.ValueChanged += new System.EventHandler(this.txtStatEndurance_ValueChanged);
             // 
             // txtStatDexterity
             // 
@@ -394,6 +397,7 @@
             this.txtStatDexterity.Name = "txtStatDexterity";
             this.txtStatDexterity.Size = new System.Drawing.Size(50, 23);
             this.txtStatDexterity.TabIndex = 90;
+            this.txtStatDexterity.ValueChanged += new System.EventHandler(this.txtStatDexterity_ValueChanged);
             // 
             // txtStatLuck
             // 
@@ -401,6 +405,7 @@
             this.txtStatLuck.Name = "txtStatLuck";
             this.txtStatLuck.Size = new System.Drawing.Size(50, 23);
             this.txtStatLuck.TabIndex = 91;
+            this.txtStatLuck.ValueChanged += new System.EventHandler(this.txtStatLuck_ValueChanged);
             // 
             // txtStatPsionic
             // 
@@ -408,6 +413,7 @@
             this.txtStatPsionic.Name = "txtStatPsionic";
             this.txtStatPsionic.Size = new System.Drawing.Size(50, 23);
             this.txtStatPsionic.TabIndex = 92;
+            this.txtStatPsionic.ValueChanged += new System.EventHandler(this.txtStatPsionic_ValueChanged);
             // 
             // txtStatMorality
             // 

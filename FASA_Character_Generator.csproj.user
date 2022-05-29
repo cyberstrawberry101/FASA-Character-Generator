@@ -4,6 +4,9 @@
     <_LastSelectedProfileId>C:\Users\nicole.rappe\source\repos\FASA_Character_Generator\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="CharacterForms\BonusPoints.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="CharacterForms\CharacteristicSelection.cs">
       <SubType>Form</SubType>
     </Compile>

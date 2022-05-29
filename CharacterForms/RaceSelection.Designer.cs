@@ -82,6 +82,7 @@
             // 
             // txtStatHumility
             // 
+            this.txtStatHumility.Enabled = false;
             this.txtStatHumility.Location = new System.Drawing.Point(488, 318);
             this.txtStatHumility.Name = "txtStatHumility";
             this.txtStatHumility.Size = new System.Drawing.Size(50, 23);
@@ -140,6 +141,7 @@
             // 
             // txtStatEmpathy
             // 
+            this.txtStatEmpathy.Enabled = false;
             this.txtStatEmpathy.Location = new System.Drawing.Point(488, 284);
             this.txtStatEmpathy.Name = "txtStatEmpathy";
             this.txtStatEmpathy.Size = new System.Drawing.Size(50, 23);
@@ -148,6 +150,7 @@
             // 
             // txtStatBravery
             // 
+            this.txtStatBravery.Enabled = false;
             this.txtStatBravery.Location = new System.Drawing.Point(488, 250);
             this.txtStatBravery.Name = "txtStatBravery";
             this.txtStatBravery.Size = new System.Drawing.Size(50, 23);
@@ -156,6 +159,7 @@
             // 
             // txtStatComposure
             // 
+            this.txtStatComposure.Enabled = false;
             this.txtStatComposure.Location = new System.Drawing.Point(488, 216);
             this.txtStatComposure.Name = "txtStatComposure";
             this.txtStatComposure.Size = new System.Drawing.Size(50, 23);
@@ -164,6 +168,7 @@
             // 
             // txtStatEnergy
             // 
+            this.txtStatEnergy.Enabled = false;
             this.txtStatEnergy.Location = new System.Drawing.Point(488, 182);
             this.txtStatEnergy.Name = "txtStatEnergy";
             this.txtStatEnergy.Size = new System.Drawing.Size(50, 23);
@@ -172,6 +177,7 @@
             // 
             // txtStatEthics
             // 
+            this.txtStatEthics.Enabled = false;
             this.txtStatEthics.Location = new System.Drawing.Point(488, 148);
             this.txtStatEthics.Name = "txtStatEthics";
             this.txtStatEthics.Size = new System.Drawing.Size(50, 23);
@@ -190,6 +196,7 @@
             // 
             // txtStatMorality
             // 
+            this.txtStatMorality.Enabled = false;
             this.txtStatMorality.Location = new System.Drawing.Point(488, 114);
             this.txtStatMorality.Name = "txtStatMorality";
             this.txtStatMorality.Size = new System.Drawing.Size(50, 23);
@@ -208,6 +215,7 @@
             // 
             // txtStatMotivation
             // 
+            this.txtStatMotivation.Enabled = false;
             this.txtStatMotivation.Location = new System.Drawing.Point(488, 80);
             this.txtStatMotivation.Name = "txtStatMotivation";
             this.txtStatMotivation.Size = new System.Drawing.Size(50, 23);
@@ -226,6 +234,7 @@
             // 
             // txtStatCoolness
             // 
+            this.txtStatCoolness.Enabled = false;
             this.txtStatCoolness.Location = new System.Drawing.Point(488, 46);
             this.txtStatCoolness.Name = "txtStatCoolness";
             this.txtStatCoolness.Size = new System.Drawing.Size(50, 23);
@@ -244,6 +253,7 @@
             // 
             // txtStatAttitude
             // 
+            this.txtStatAttitude.Enabled = false;
             this.txtStatAttitude.Location = new System.Drawing.Point(488, 12);
             this.txtStatAttitude.Name = "txtStatAttitude";
             this.txtStatAttitude.Size = new System.Drawing.Size(50, 23);
@@ -259,6 +269,7 @@
             this.btnStoreStats.TabIndex = 56;
             this.btnStoreStats.Text = "Accept";
             this.btnStoreStats.UseVisualStyleBackColor = true;
+            this.btnStoreStats.Click += new System.EventHandler(this.btnStoreStats_Click);
             // 
             // label9
             // 
@@ -321,6 +332,7 @@
             // 
             // txtStatWillpower
             // 
+            this.txtStatWillpower.Enabled = false;
             this.txtStatWillpower.Location = new System.Drawing.Point(488, 352);
             this.txtStatWillpower.Name = "txtStatWillpower";
             this.txtStatWillpower.Size = new System.Drawing.Size(50, 23);
@@ -329,6 +341,7 @@
             // 
             // txtStatPsionic
             // 
+            this.txtStatPsionic.Enabled = false;
             this.txtStatPsionic.Location = new System.Drawing.Point(298, 216);
             this.txtStatPsionic.Name = "txtStatPsionic";
             this.txtStatPsionic.Size = new System.Drawing.Size(50, 23);
@@ -337,6 +350,7 @@
             // 
             // txtStatLuck
             // 
+            this.txtStatLuck.Enabled = false;
             this.txtStatLuck.Location = new System.Drawing.Point(298, 182);
             this.txtStatLuck.Name = "txtStatLuck";
             this.txtStatLuck.Size = new System.Drawing.Size(50, 23);
@@ -345,6 +359,7 @@
             // 
             // txtStatCharisma
             // 
+            this.txtStatCharisma.Enabled = false;
             this.txtStatCharisma.Location = new System.Drawing.Point(298, 148);
             this.txtStatCharisma.Name = "txtStatCharisma";
             this.txtStatCharisma.Size = new System.Drawing.Size(50, 23);
@@ -363,6 +378,7 @@
             // 
             // txtStatDexterity
             // 
+            this.txtStatDexterity.Enabled = false;
             this.txtStatDexterity.Location = new System.Drawing.Point(298, 114);
             this.txtStatDexterity.Name = "txtStatDexterity";
             this.txtStatDexterity.Size = new System.Drawing.Size(50, 23);
@@ -381,6 +397,7 @@
             // 
             // txtStatIntellect
             // 
+            this.txtStatIntellect.Enabled = false;
             this.txtStatIntellect.Location = new System.Drawing.Point(298, 80);
             this.txtStatIntellect.Name = "txtStatIntellect";
             this.txtStatIntellect.Size = new System.Drawing.Size(50, 23);
@@ -399,6 +416,7 @@
             // 
             // txtStatEndurance
             // 
+            this.txtStatEndurance.Enabled = false;
             this.txtStatEndurance.Location = new System.Drawing.Point(298, 46);
             this.txtStatEndurance.Name = "txtStatEndurance";
             this.txtStatEndurance.Size = new System.Drawing.Size(50, 23);
@@ -417,6 +435,7 @@
             // 
             // txtStatStrength
             // 
+            this.txtStatStrength.Enabled = false;
             this.txtStatStrength.Location = new System.Drawing.Point(298, 12);
             this.txtStatStrength.Name = "txtStatStrength";
             this.txtStatStrength.Size = new System.Drawing.Size(50, 23);
@@ -498,6 +517,7 @@
             this.Controls.Add(this.txtStatEndurance);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtStatStrength);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "RaceSelection";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChooseRace";

@@ -39,3 +39,5 @@ C:\Users\nicole.rappe\Documents\GitHub\FASA-Character-Generator\obj\Debug\net6.0
 C:\Users\nicole.rappe\Documents\GitHub\FASA-Character-Generator\obj\Debug\net6.0-windows\FASA_Character_Generator.genruntimeconfig.cache
 C:\Users\nicole.rappe\Documents\GitHub\FASA-Character-Generator\obj\Debug\net6.0-windows\ref\FASA_Character_Generator.dll
 C:\Users\nicole.rappe\Documents\GitHub\FASA-Character-Generator\obj\Debug\net6.0-windows\FASA_Character_Generator.RaceSelection.resources
+C:\Users\nicole.rappe\Documents\GitHub\FASA-Character-Generator\obj\Debug\net6.0-windows\FASA_Character_Generator.BonusPoints.resources
+C:\Users\nicole.rappe\Documents\GitHub\FASA-Character-Generator\obj\Debug\net6.0-windows\FASA_Character_Generator.Properties.Resources.resources

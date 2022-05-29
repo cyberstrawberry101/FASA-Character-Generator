@@ -69,22 +69,18 @@ namespace FASA_Character_Generator
                 case "Bajoran": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Benzite": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Betazoid": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Bolian": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Caitian":
                     PopulateStatsFromClass();
@@ -98,12 +94,10 @@ namespace FASA_Character_Generator
                 case "Cardassian": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Deltan": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Edoan":
                     PopulateStatsFromClass();
@@ -116,7 +110,6 @@ namespace FASA_Character_Generator
                 case "Ferengi": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Human":
                     PopulateStatsFromClass();
@@ -126,27 +119,22 @@ namespace FASA_Character_Generator
                 case "Klingon - Human": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Klingon - Imperial": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Klingon - Romulan": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Orion": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Romulan": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Tellarite":
                     PopulateStatsFromClass();
@@ -160,7 +148,6 @@ namespace FASA_Character_Generator
                 case "Trill": //NOT APPLICABLE AT THIS TIME
                     PopulateStatsFromClass();
                     CalculateTotals();
-                    // code block
                     break;
                 case "Vulcan":
                     PopulateStatsFromClass();
@@ -176,6 +163,35 @@ namespace FASA_Character_Generator
                     CalculateTotals();
                     break;
             }
+        }
+
+        private void btnStoreStats_Click(object sender, EventArgs e)
+        {
+            //Store the character stats into the character stat class for use later
+            WindowJumper.WindowJumperInstance.CharacterStats.Attitude = int.Parse(txtStatAttitude.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Bravery = int.Parse(txtStatBravery.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Charisma = int.Parse(txtStatCharisma.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Composure = int.Parse(txtStatComposure.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Coolness = int.Parse(txtStatCoolness.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Dexterity = int.Parse(txtStatDexterity.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Empathy = int.Parse(txtStatEmpathy.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Endurance = int.Parse(txtStatEndurance.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Energy = int.Parse(txtStatEnergy.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Ethics = int.Parse(txtStatEthics.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Humility = int.Parse(txtStatHumility.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Intellect = int.Parse(txtStatIntellect.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Luck = int.Parse(txtStatLuck.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Morality = int.Parse(txtStatMorality.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Motivation = int.Parse(txtStatMotivation.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Psionic = int.Parse(txtStatPsionic.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Strength = int.Parse(txtStatStrength.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Willpower = int.Parse(txtStatWillpower.Text);
+
+            //Move onto the Race Selection Form
+            var BonusPoints = new BonusPoints(); //create an instance of CharacteristicSelection
+            Hide();             //hide me (ServiceSelection)
+            BonusPoints.Show();       //show CharacteristicSelection
+            Close();            //close me (ServiceSelection), since WindowJumper is the message loop - no problem.
         }
     }
 }

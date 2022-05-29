@@ -63,28 +63,6 @@ namespace FASA_Character_Generator
             txtStatWillpower.Minimum = WindowJumper.WindowJumperInstance.CharacterStats.Willpower;
         }
 
-        private void RecalculateBonusBalance()
-        {
-            int rollingDelta = 0;
-            rollingDelta = rollingDelta + int.Parse(txtStatStrength.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Strength;
-            rollingDelta = rollingDelta + int.Parse(txtStatAttitude.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Attitude;
-            rollingDelta = rollingDelta + int.Parse(txtStatBravery.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Bravery;
-            rollingDelta = rollingDelta + int.Parse(txtStatCharisma.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Charisma;
-            rollingDelta = rollingDelta + int.Parse(txtStatComposure.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Composure;
-            rollingDelta = rollingDelta + int.Parse(txtStatDexterity.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Dexterity;
-            rollingDelta = rollingDelta + int.Parse(txtStatEmpathy.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Empathy;
-            rollingDelta = rollingDelta + int.Parse(txtStatEndurance.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Endurance;
-            rollingDelta = rollingDelta + int.Parse(txtStatEnergy.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Energy;
-            rollingDelta = rollingDelta + int.Parse(txtStatEthics.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Ethics;
-            rollingDelta = rollingDelta + int.Parse(txtStatHumility.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Humility;
-            rollingDelta = rollingDelta + int.Parse(txtStatIntellect.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Intellect;
-            rollingDelta = rollingDelta + int.Parse(txtStatLuck.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Luck;
-            rollingDelta = rollingDelta + int.Parse(txtStatMorality.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Morality;
-            rollingDelta = rollingDelta + int.Parse(txtStatMotivation.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Motivation;
-            rollingDelta = rollingDelta + int.Parse(txtStatPsionic.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Psionic;
-            rollingDelta = rollingDelta + int.Parse(txtStatWillpower.Text) - WindowJumper.WindowJumperInstance.CharacterStats.Willpower;
-            txtBonusPoints.Text = (IntellectBonus - rollingDelta + 1).ToString();
-        }
         private void BonusPoints_Load(object sender, EventArgs e)
         {
             PopulateStatsFromClass();
@@ -99,39 +77,52 @@ namespace FASA_Character_Generator
             txtBonusPoints.Text = IntellectBonus.ToString();
         }
 
+        private void CalculateDelta(string previousStat, string CurrentStat)
+        {
+            //Check if the stat is greater than the older stat, and that the bonus points are greater than 0
+            if (int.Parse(CurrentStat) > int.Parse(previousStat))
+            {
+                txtBonusPoints.Text = (int.Parse(txtBonusPoints.Text) - 1).ToString();
+            }
+            if (int.Parse(CurrentStat) < int.Parse(previousStat))
+            {
+                txtBonusPoints.Text = (int.Parse(txtBonusPoints.Text) + 1).ToString();
+            }
+        }
+
         private void txtStatStrength_ValueChanged(object sender, EventArgs e)
         {
-            RecalculateBonusBalance();
+            CalculateDelta(((UpDownBase)sender).Text, ((NumericUpDown)sender).Value.ToString());
         }
 
         private void txtStatEndurance_ValueChanged(object sender, EventArgs e)
         {
-            RecalculateBonusBalance();
+            CalculateDelta(((UpDownBase)sender).Text, ((NumericUpDown)sender).Value.ToString());
         }
 
         private void txtStatIntellect_ValueChanged(object sender, EventArgs e)
         {
-            RecalculateBonusBalance();
+            CalculateDelta(((UpDownBase)sender).Text, ((NumericUpDown)sender).Value.ToString());
         }
 
         private void txtStatDexterity_ValueChanged(object sender, EventArgs e)
         {
-            RecalculateBonusBalance();
+            CalculateDelta(((UpDownBase)sender).Text, ((NumericUpDown)sender).Value.ToString());
         }
 
         private void txtStatCharisma_ValueChanged(object sender, EventArgs e)
         {
-            RecalculateBonusBalance();
+            CalculateDelta(((UpDownBase)sender).Text, ((NumericUpDown)sender).Value.ToString());
         }
 
         private void txtStatLuck_ValueChanged(object sender, EventArgs e)
         {
-            RecalculateBonusBalance();
+            CalculateDelta(((UpDownBase)sender).Text, ((NumericUpDown)sender).Value.ToString());
         }
 
         private void txtStatPsionic_ValueChanged(object sender, EventArgs e)
         {
-            RecalculateBonusBalance();
+            CalculateDelta(((UpDownBase)sender).Text, ((NumericUpDown)sender).Value.ToString());
         }
     }
 }

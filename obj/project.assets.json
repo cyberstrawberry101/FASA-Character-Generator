@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicole.rappe\\Documents\\GitHub\\FASA-Character-Generator\\FASA_Character_Generator.csproj",
+      "projectUniqueName": "C:\\Users\\nicole.rappe\\Source\\Repos\\FASA-Character-Generator\\FASA_Character_Generator.csproj",
       "projectName": "FASA_Character_Generator",
-      "projectPath": "C:\\Users\\nicole.rappe\\Documents\\GitHub\\FASA-Character-Generator\\FASA_Character_Generator.csproj",
+      "projectPath": "C:\\Users\\nicole.rappe\\Source\\Repos\\FASA-Character-Generator\\FASA_Character_Generator.csproj",
       "packagesPath": "C:\\Users\\nicole.rappe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicole.rappe\\Documents\\GitHub\\FASA-Character-Generator\\obj\\",
+      "outputPath": "C:\\Users\\nicole.rappe\\Source\\Repos\\FASA-Character-Generator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nicole.rappe\\AppData\\Roaming\\NuGet\\NuGet.Config",

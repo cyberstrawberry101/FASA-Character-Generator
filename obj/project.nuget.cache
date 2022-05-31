@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "arvVX5WWL0xSBe4rGzukLgDZWHTcf+GYcdzR3XcnENkYYsL9So3ZpmKep3Qg5kwEGUydgFDhIgy42Kpwvbmoog==",
+  "dgSpecHash": "M8vD1WoXBGA83LN54pW3y9WEVNZJRbiKYkQcod1iGpw7araL4QAuvIuDpjSX2pZsR+bHTPcxSjxzuaCtBsJifQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicole.rappe\\Documents\\GitHub\\FASA-Character-Generator\\FASA_Character_Generator.csproj",
+  "projectFilePath": "C:\\Users\\nicole.rappe\\Source\\Repos\\FASA-Character-Generator\\FASA_Character_Generator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

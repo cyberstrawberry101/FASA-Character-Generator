@@ -93,6 +93,7 @@ namespace FASA_Character_Generator
         private void txtStatStrength_ValueChanged(object sender, EventArgs e)
         {
             CalculateDelta(((UpDownBase)sender).Text, ((NumericUpDown)sender).Value.ToString());
+            MessageBox.Show("Sorta message");
         }
 
         private void txtStatEndurance_ValueChanged(object sender, EventArgs e)

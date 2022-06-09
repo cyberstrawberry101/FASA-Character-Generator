@@ -71,7 +71,7 @@ namespace FASA_Character_Generator
                 D100result = D100result / 2;
                 if (D100result < 30)
                 {
-                D100result = 30;
+                    D100result = 30;
                 }
             //Store the rounded-down value back into the bonus points window and into a global variable
             txtBonusPoints.Text = Convert.ToInt32(D100result).ToString();

@@ -29,41 +29,120 @@ namespace FASA_Character_Generator
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int arraySize = 10;
             if (radD3.Checked == true)
             {
-                txtRollResult.Text = (WindowJumper.WindowJumperInstance.Roll("d3")).ToString();
+                //Create an Array to Store 10 Rolls
+                int[] rollArray = new int[arraySize];
+                
+                //Loop through the rolls 10 times and assign results to each array variable
+                for (int roll = 0; roll < arraySize; roll++)
+                {
+                    rollArray[roll] = WindowJumper.WindowJumperInstance.RollD(3);
+                }
+                txtRollResult.Text = String.Join(", ", rollArray);
             }
             if (radD4.Checked == true)
             {
-                txtRollResult.Text = (WindowJumper.WindowJumperInstance.Roll("d4")).ToString();
+                //Create an Array to Store 10 Rolls
+                int[] rollArray = new int[arraySize];
+
+                //Loop through the rolls 10 times and assign results to each array variable
+                for (int roll = 0; roll < arraySize; roll++)
+                {
+                    rollArray[roll] = WindowJumper.WindowJumperInstance.RollD(4);
+                }
+                txtRollResult.Text = String.Join(", ", rollArray);
             }
             if (radD6.Checked == true)
             {
-                txtRollResult.Text = (WindowJumper.WindowJumperInstance.Roll("d6")).ToString();
+                //Create an Array to Store 10 Rolls
+                int[] rollArray = new int[arraySize];
+
+                //Loop through the rolls 10 times and assign results to each array variable
+                for (int roll = 0; roll < arraySize; roll++)
+                {
+                    rollArray[roll] = WindowJumper.WindowJumperInstance.RollD(6);
+                }
+                txtRollResult.Text = String.Join(", ", rollArray);
             }
             if (radD8.Checked == true)
             {
-                txtRollResult.Text = (WindowJumper.WindowJumperInstance.Roll("d8")).ToString();
+                //Create an Array to Store 10 Rolls
+                int[] rollArray = new int[arraySize];
+
+                //Loop through the rolls 10 times and assign results to each array variable
+                for (int roll = 0; roll < arraySize; roll++)
+                {
+                    rollArray[roll] = WindowJumper.WindowJumperInstance.RollD(8);
+                }
+                txtRollResult.Text = String.Join(", ", rollArray);
             }
             if (radD10.Checked == true)
             {
-                txtRollResult.Text = (WindowJumper.WindowJumperInstance.Roll("d10")).ToString();
+                //Create an Array to Store 10 Rolls
+                int[] rollArray = new int[arraySize];
+
+                //Loop through the rolls 10 times and assign results to each array variable
+                for (int roll = 0; roll < arraySize; roll++)
+                {
+                    rollArray[roll] = WindowJumper.WindowJumperInstance.RollD(10);
+                }
+                txtRollResult.Text = String.Join(", ", rollArray);
             }
             if (radD12.Checked == true)
             {
-                txtRollResult.Text = (WindowJumper.WindowJumperInstance.Roll("d12")).ToString();
+                //Create an Array to Store 10 Rolls
+                int[] rollArray = new int[arraySize];
+
+                //Loop through the rolls 10 times and assign results to each array variable
+                for (int roll = 0; roll < arraySize; roll++)
+                {
+                    rollArray[roll] = WindowJumper.WindowJumperInstance.RollD(12);
+                }
+                txtRollResult.Text = String.Join(", ", rollArray);
             }
             if (radD20.Checked == true)
             {
-                txtRollResult.Text = (WindowJumper.WindowJumperInstance.Roll("d20")).ToString();
+                //Create an Array to Store 10 Rolls
+                int[] rollArray = new int[arraySize];
+
+                //Loop through the rolls 10 times and assign results to each array variable
+                for (int roll = 0; roll < arraySize; roll++)
+                {
+                    rollArray[roll] = WindowJumper.WindowJumperInstance.RollD(20);
+                }
+                txtRollResult.Text = String.Join(", ", rollArray);
             }
             if (radD30.Checked == true)
             {
-                txtRollResult.Text = (WindowJumper.WindowJumperInstance.Roll("d30")).ToString();
+                //Create an Array to Store 10 Rolls
+                int[] rollArray = new int[arraySize];
+
+                //Loop through the rolls 10 times and assign results to each array variable
+                for (int roll = 0; roll < arraySize; roll++)
+                {
+                    rollArray[roll] = WindowJumper.WindowJumperInstance.RollD(30);
+                }
+                txtRollResult.Text = String.Join(", ", rollArray);
             }
             if (radD100.Checked == true)
             {
-                txtRollResult.Text = (WindowJumper.WindowJumperInstance.Roll("d100")).ToString();
+                //Create an Array to Store 10 Rolls
+                int[] rollArray = new int[arraySize];
+
+                //Loop through the rolls 10 times and assign results to each array variable
+                for (int roll = 0; roll < arraySize; roll++)
+                {
+                    //int debugRoll = WindowJumper.WindowJumperInstance.RollD(100);
+                    //if (debugRoll == 100)
+                    //{
+                    //    MessageBox.Show("Rolled 100 in " + roll + " rolls.");
+                    //    break;
+                    //} 
+                    rollArray[roll] = WindowJumper.WindowJumperInstance.RollD(100);
+                }
+                txtRollResult.Text = String.Join(", ", rollArray);
             }
         }
 

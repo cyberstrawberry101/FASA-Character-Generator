@@ -256,6 +256,7 @@
             this.txtBonusPoints.Size = new System.Drawing.Size(50, 23);
             this.txtBonusPoints.TabIndex = 50;
             this.txtBonusPoints.Text = "15";
+            this.txtBonusPoints.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -303,6 +304,7 @@
             this.txtStatStrength.Name = "txtStatStrength";
             this.txtStatStrength.Size = new System.Drawing.Size(50, 23);
             this.txtStatStrength.TabIndex = 77;
+            this.txtStatStrength.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtStatStrength.ValueChanged += new System.EventHandler(this.txtStatStrength_ValueChanged);
             // 
             // txtStatWillpower
@@ -311,6 +313,7 @@
             this.txtStatWillpower.Name = "txtStatWillpower";
             this.txtStatWillpower.Size = new System.Drawing.Size(50, 23);
             this.txtStatWillpower.TabIndex = 78;
+            this.txtStatWillpower.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatHumility
             // 
@@ -318,6 +321,7 @@
             this.txtStatHumility.Name = "txtStatHumility";
             this.txtStatHumility.Size = new System.Drawing.Size(50, 23);
             this.txtStatHumility.TabIndex = 79;
+            this.txtStatHumility.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatMotivation
             // 
@@ -325,6 +329,7 @@
             this.txtStatMotivation.Name = "txtStatMotivation";
             this.txtStatMotivation.Size = new System.Drawing.Size(50, 23);
             this.txtStatMotivation.TabIndex = 80;
+            this.txtStatMotivation.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatComposure
             // 
@@ -332,6 +337,7 @@
             this.txtStatComposure.Name = "txtStatComposure";
             this.txtStatComposure.Size = new System.Drawing.Size(50, 23);
             this.txtStatComposure.TabIndex = 81;
+            this.txtStatComposure.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatAttitude
             // 
@@ -339,6 +345,7 @@
             this.txtStatAttitude.Name = "txtStatAttitude";
             this.txtStatAttitude.Size = new System.Drawing.Size(50, 23);
             this.txtStatAttitude.TabIndex = 82;
+            this.txtStatAttitude.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatEnergy
             // 
@@ -346,6 +353,7 @@
             this.txtStatEnergy.Name = "txtStatEnergy";
             this.txtStatEnergy.Size = new System.Drawing.Size(50, 23);
             this.txtStatEnergy.TabIndex = 83;
+            this.txtStatEnergy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatEthics
             // 
@@ -353,6 +361,7 @@
             this.txtStatEthics.Name = "txtStatEthics";
             this.txtStatEthics.Size = new System.Drawing.Size(50, 23);
             this.txtStatEthics.TabIndex = 84;
+            this.txtStatEthics.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatBravery
             // 
@@ -360,6 +369,7 @@
             this.txtStatBravery.Name = "txtStatBravery";
             this.txtStatBravery.Size = new System.Drawing.Size(50, 23);
             this.txtStatBravery.TabIndex = 85;
+            this.txtStatBravery.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatCoolness
             // 
@@ -367,6 +377,7 @@
             this.txtStatCoolness.Name = "txtStatCoolness";
             this.txtStatCoolness.Size = new System.Drawing.Size(50, 23);
             this.txtStatCoolness.TabIndex = 86;
+            this.txtStatCoolness.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatCharisma
             // 
@@ -374,6 +385,7 @@
             this.txtStatCharisma.Name = "txtStatCharisma";
             this.txtStatCharisma.Size = new System.Drawing.Size(50, 23);
             this.txtStatCharisma.TabIndex = 87;
+            this.txtStatCharisma.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtStatCharisma.ValueChanged += new System.EventHandler(this.txtStatCharisma_ValueChanged);
             // 
             // txtStatIntellect
@@ -382,6 +394,7 @@
             this.txtStatIntellect.Name = "txtStatIntellect";
             this.txtStatIntellect.Size = new System.Drawing.Size(50, 23);
             this.txtStatIntellect.TabIndex = 88;
+            this.txtStatIntellect.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtStatIntellect.ValueChanged += new System.EventHandler(this.txtStatIntellect_ValueChanged);
             // 
             // txtStatEndurance
@@ -390,6 +403,7 @@
             this.txtStatEndurance.Name = "txtStatEndurance";
             this.txtStatEndurance.Size = new System.Drawing.Size(50, 23);
             this.txtStatEndurance.TabIndex = 89;
+            this.txtStatEndurance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtStatEndurance.ValueChanged += new System.EventHandler(this.txtStatEndurance_ValueChanged);
             // 
             // txtStatDexterity
@@ -398,6 +412,7 @@
             this.txtStatDexterity.Name = "txtStatDexterity";
             this.txtStatDexterity.Size = new System.Drawing.Size(50, 23);
             this.txtStatDexterity.TabIndex = 90;
+            this.txtStatDexterity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtStatDexterity.ValueChanged += new System.EventHandler(this.txtStatDexterity_ValueChanged);
             // 
             // txtStatLuck
@@ -406,6 +421,7 @@
             this.txtStatLuck.Name = "txtStatLuck";
             this.txtStatLuck.Size = new System.Drawing.Size(50, 23);
             this.txtStatLuck.TabIndex = 91;
+            this.txtStatLuck.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtStatLuck.ValueChanged += new System.EventHandler(this.txtStatLuck_ValueChanged);
             // 
             // txtStatPsionic
@@ -414,6 +430,7 @@
             this.txtStatPsionic.Name = "txtStatPsionic";
             this.txtStatPsionic.Size = new System.Drawing.Size(50, 23);
             this.txtStatPsionic.TabIndex = 92;
+            this.txtStatPsionic.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtStatPsionic.ValueChanged += new System.EventHandler(this.txtStatPsionic_ValueChanged);
             // 
             // txtStatMorality
@@ -422,6 +439,7 @@
             this.txtStatMorality.Name = "txtStatMorality";
             this.txtStatMorality.Size = new System.Drawing.Size(50, 23);
             this.txtStatMorality.TabIndex = 93;
+            this.txtStatMorality.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatEmpathy
             // 
@@ -429,6 +447,7 @@
             this.txtStatEmpathy.Name = "txtStatEmpathy";
             this.txtStatEmpathy.Size = new System.Drawing.Size(50, 23);
             this.txtStatEmpathy.TabIndex = 94;
+            this.txtStatEmpathy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // BonusPoints
             // 

@@ -71,6 +71,7 @@
             this.label20 = new System.Windows.Forms.Label();
             this.txtRerollCounter = new System.Windows.Forms.TextBox();
             this.txtStatHumility = new System.Windows.Forms.TextBox();
+            this.btnRoll = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtStatStrength
@@ -80,7 +81,8 @@
             this.txtStatStrength.Name = "txtStatStrength";
             this.txtStatStrength.Size = new System.Drawing.Size(50, 23);
             this.txtStatStrength.TabIndex = 0;
-            this.txtStatStrength.Text = "15";
+            this.txtStatStrength.Text = "0";
+            this.txtStatStrength.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -99,7 +101,8 @@
             this.txtStatEndurance.Name = "txtStatEndurance";
             this.txtStatEndurance.Size = new System.Drawing.Size(50, 23);
             this.txtStatEndurance.TabIndex = 2;
-            this.txtStatEndurance.Text = "15";
+            this.txtStatEndurance.Text = "0";
+            this.txtStatEndurance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -128,7 +131,8 @@
             this.txtStatDexterity.Name = "txtStatDexterity";
             this.txtStatDexterity.Size = new System.Drawing.Size(50, 23);
             this.txtStatDexterity.TabIndex = 6;
-            this.txtStatDexterity.Text = "15";
+            this.txtStatDexterity.Text = "0";
+            this.txtStatDexterity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label4
             // 
@@ -147,7 +151,8 @@
             this.txtStatIntellect.Name = "txtStatIntellect";
             this.txtStatIntellect.Size = new System.Drawing.Size(50, 23);
             this.txtStatIntellect.TabIndex = 4;
-            this.txtStatIntellect.Text = "15";
+            this.txtStatIntellect.Text = "0";
+            this.txtStatIntellect.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatWillpower
             // 
@@ -156,7 +161,8 @@
             this.txtStatWillpower.Name = "txtStatWillpower";
             this.txtStatWillpower.Size = new System.Drawing.Size(50, 23);
             this.txtStatWillpower.TabIndex = 11;
-            this.txtStatWillpower.Text = "1337";
+            this.txtStatWillpower.Text = "0";
+            this.txtStatWillpower.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatPsionic
             // 
@@ -165,7 +171,8 @@
             this.txtStatPsionic.Name = "txtStatPsionic";
             this.txtStatPsionic.Size = new System.Drawing.Size(50, 23);
             this.txtStatPsionic.TabIndex = 10;
-            this.txtStatPsionic.Text = "15";
+            this.txtStatPsionic.Text = "0";
+            this.txtStatPsionic.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatLuck
             // 
@@ -174,7 +181,8 @@
             this.txtStatLuck.Name = "txtStatLuck";
             this.txtStatLuck.Size = new System.Drawing.Size(50, 23);
             this.txtStatLuck.TabIndex = 9;
-            this.txtStatLuck.Text = "15";
+            this.txtStatLuck.Text = "0";
+            this.txtStatLuck.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatCharisma
             // 
@@ -183,7 +191,8 @@
             this.txtStatCharisma.Name = "txtStatCharisma";
             this.txtStatCharisma.Size = new System.Drawing.Size(50, 23);
             this.txtStatCharisma.TabIndex = 8;
-            this.txtStatCharisma.Text = "15";
+            this.txtStatCharisma.Text = "0";
+            this.txtStatCharisma.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatTotal
             // 
@@ -192,7 +201,8 @@
             this.txtStatTotal.Name = "txtStatTotal";
             this.txtStatTotal.Size = new System.Drawing.Size(50, 23);
             this.txtStatTotal.TabIndex = 12;
-            this.txtStatTotal.Text = "15";
+            this.txtStatTotal.Text = "0";
+            this.txtStatTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label5
             // 
@@ -258,12 +268,13 @@
             // 
             // btnStoreStats
             // 
+            this.btnStoreStats.Enabled = false;
             this.btnStoreStats.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnStoreStats.Location = new System.Drawing.Point(12, 349);
             this.btnStoreStats.Name = "btnStoreStats";
             this.btnStoreStats.Size = new System.Drawing.Size(75, 23);
             this.btnStoreStats.TabIndex = 15;
-            this.btnStoreStats.Text = "Accept";
+            this.btnStoreStats.Text = "Proceed";
             this.btnStoreStats.UseVisualStyleBackColor = true;
             this.btnStoreStats.Click += new System.EventHandler(this.btnStoreStats_Click);
             // 
@@ -334,7 +345,8 @@
             this.txtStatEmpathy.Name = "txtStatEmpathy";
             this.txtStatEmpathy.Size = new System.Drawing.Size(50, 23);
             this.txtStatEmpathy.TabIndex = 29;
-            this.txtStatEmpathy.Text = "1337";
+            this.txtStatEmpathy.Text = "0";
+            this.txtStatEmpathy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatBravery
             // 
@@ -343,7 +355,8 @@
             this.txtStatBravery.Name = "txtStatBravery";
             this.txtStatBravery.Size = new System.Drawing.Size(50, 23);
             this.txtStatBravery.TabIndex = 28;
-            this.txtStatBravery.Text = "1337";
+            this.txtStatBravery.Text = "0";
+            this.txtStatBravery.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatComposure
             // 
@@ -352,7 +365,8 @@
             this.txtStatComposure.Name = "txtStatComposure";
             this.txtStatComposure.Size = new System.Drawing.Size(50, 23);
             this.txtStatComposure.TabIndex = 27;
-            this.txtStatComposure.Text = "1337";
+            this.txtStatComposure.Text = "0";
+            this.txtStatComposure.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatEnergy
             // 
@@ -361,7 +375,8 @@
             this.txtStatEnergy.Name = "txtStatEnergy";
             this.txtStatEnergy.Size = new System.Drawing.Size(50, 23);
             this.txtStatEnergy.TabIndex = 26;
-            this.txtStatEnergy.Text = "1337";
+            this.txtStatEnergy.Text = "0";
+            this.txtStatEnergy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatEthics
             // 
@@ -370,7 +385,8 @@
             this.txtStatEthics.Name = "txtStatEthics";
             this.txtStatEthics.Size = new System.Drawing.Size(50, 23);
             this.txtStatEthics.TabIndex = 25;
-            this.txtStatEthics.Text = "1337";
+            this.txtStatEthics.Text = "0";
+            this.txtStatEthics.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label15
             // 
@@ -389,7 +405,8 @@
             this.txtStatMorality.Name = "txtStatMorality";
             this.txtStatMorality.Size = new System.Drawing.Size(50, 23);
             this.txtStatMorality.TabIndex = 23;
-            this.txtStatMorality.Text = "1337";
+            this.txtStatMorality.Text = "0";
+            this.txtStatMorality.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label16
             // 
@@ -408,7 +425,8 @@
             this.txtStatMotivation.Name = "txtStatMotivation";
             this.txtStatMotivation.Size = new System.Drawing.Size(50, 23);
             this.txtStatMotivation.TabIndex = 21;
-            this.txtStatMotivation.Text = "1337";
+            this.txtStatMotivation.Text = "0";
+            this.txtStatMotivation.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label17
             // 
@@ -427,7 +445,8 @@
             this.txtStatCoolness.Name = "txtStatCoolness";
             this.txtStatCoolness.Size = new System.Drawing.Size(50, 23);
             this.txtStatCoolness.TabIndex = 19;
-            this.txtStatCoolness.Text = "1337";
+            this.txtStatCoolness.Text = "0";
+            this.txtStatCoolness.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label18
             // 
@@ -446,7 +465,8 @@
             this.txtStatAttitude.Name = "txtStatAttitude";
             this.txtStatAttitude.Size = new System.Drawing.Size(50, 23);
             this.txtStatAttitude.TabIndex = 17;
-            this.txtStatAttitude.Text = "1337";
+            this.txtStatAttitude.Text = "0";
+            this.txtStatAttitude.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label19
             // 
@@ -483,13 +503,26 @@
             this.txtStatHumility.Name = "txtStatHumility";
             this.txtStatHumility.Size = new System.Drawing.Size(50, 23);
             this.txtStatHumility.TabIndex = 35;
-            this.txtStatHumility.Text = "1337";
+            this.txtStatHumility.Text = "0";
+            this.txtStatHumility.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnRoll
+            // 
+            this.btnRoll.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnRoll.Location = new System.Drawing.Point(12, 320);
+            this.btnRoll.Name = "btnRoll";
+            this.btnRoll.Size = new System.Drawing.Size(75, 23);
+            this.btnRoll.TabIndex = 39;
+            this.btnRoll.Text = "Roll";
+            this.btnRoll.UseVisualStyleBackColor = true;
+            this.btnRoll.Click += new System.EventHandler(this.btnRoll_Click);
             // 
             // CharacteristicSelection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(350, 387);
+            this.Controls.Add(this.btnRoll);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.txtRerollCounter);
@@ -588,5 +621,6 @@
         private Label label20;
         private TextBox txtRerollCounter;
         private TextBox txtStatHumility;
+        private Button btnRoll;
     }
 }

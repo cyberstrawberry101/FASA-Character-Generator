@@ -25,24 +25,7 @@ namespace FASA_Character_Generator
 
         private void CharacteristicSelection_Load(object sender, EventArgs e)
         {
-            //Generate Random Numbers for the first column of the window stats (left-hand side) when window opens
-            Random r = new Random(); //Create an instance of the Random Number Generator
-
-            //Pick a random number between 3-30, then add 40
-            txtStatCharisma.Text = (r.Next(3, 30) + 40).ToString(); 
-            txtStatDexterity.Text = (r.Next(3, 30) + 40).ToString();
-            txtStatEndurance.Text = (r.Next(3, 30) + 40).ToString();
-            txtStatStrength.Text = (r.Next(3, 30) + 40).ToString();
-            txtStatIntellect.Text = (r.Next(3, 30) + 40).ToString();
-            //==================================================================
-
-            //Pick a random number between 1-100
-            txtStatLuck.Text = (r.Next(1, 100)).ToString();
-            txtStatPsionic.Text = (r.Next(1, 100)).ToString();
-
-            //Calculate grand total of left-side column stats
-            int statTotal = int.Parse(txtStatCharisma.Text) + int.Parse(txtStatDexterity.Text) + int.Parse(txtStatEndurance.Text) + int.Parse(txtStatStrength.Text) + int.Parse(txtStatIntellect.Text) + int.Parse(txtStatLuck.Text) + int.Parse(txtStatPsionic.Text);
-            txtStatTotal.Text = statTotal.ToString();
+            
         }
 
         private void btnStoreStats_Click(object sender, EventArgs e)
@@ -72,6 +55,34 @@ namespace FASA_Character_Generator
             Hide();             //hide me (ServiceSelection)
             RaceSelection.Show();       //show CharacteristicSelection
             Close();            //close me (ServiceSelection), since WindowJumper is the message loop - no problem.
+        }
+
+        private void btnRoll_Click(object sender, EventArgs e)
+        {
+            //Disable the Button Immediately
+            btnRoll.Enabled = false;
+
+            //Generate Random Numbers for the first column of the window stats (left-hand side) when window opens
+            Random r = new Random(); //Create an instance of the Random Number Generator
+
+            //Pick a random number between 3-30, then add 40
+            txtStatCharisma.Text = (r.Next(3, 30) + 40).ToString();
+            txtStatDexterity.Text = (r.Next(3, 30) + 40).ToString();
+            txtStatEndurance.Text = (r.Next(3, 30) + 40).ToString();
+            txtStatStrength.Text = (r.Next(3, 30) + 40).ToString();
+            txtStatIntellect.Text = (r.Next(3, 30) + 40).ToString();
+            //==================================================================
+
+            //Pick a random number between 1-100
+            txtStatLuck.Text = (r.Next(1, 100)).ToString();
+            txtStatPsionic.Text = (r.Next(1, 100)).ToString();
+
+            //Calculate grand total of left-side column stats
+            int statTotal = int.Parse(txtStatCharisma.Text) + int.Parse(txtStatDexterity.Text) + int.Parse(txtStatEndurance.Text) + int.Parse(txtStatStrength.Text) + int.Parse(txtStatIntellect.Text) + int.Parse(txtStatLuck.Text) + int.Parse(txtStatPsionic.Text);
+            txtStatTotal.Text = statTotal.ToString();
+
+            //Enable Proceed Button
+            btnStoreStats.Enabled = true;
         }
     }
 }

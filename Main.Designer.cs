@@ -144,7 +144,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.Location = new System.Drawing.Point(12, 46);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(201, 249);
+            this.groupBox1.Size = new System.Drawing.Size(854, 249);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dice Roller";
@@ -164,7 +164,7 @@
             this.txtRollResult.Enabled = false;
             this.txtRollResult.Location = new System.Drawing.Point(91, 218);
             this.txtRollResult.Name = "txtRollResult";
-            this.txtRollResult.Size = new System.Drawing.Size(100, 23);
+            this.txtRollResult.Size = new System.Drawing.Size(757, 23);
             this.txtRollResult.TabIndex = 8;
             // 
             // radD30

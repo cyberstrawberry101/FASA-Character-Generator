@@ -88,6 +88,7 @@
             this.txtStatHumility.Size = new System.Drawing.Size(50, 23);
             this.txtStatHumility.TabIndex = 75;
             this.txtStatHumility.Text = "0";
+            this.txtStatHumility.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label10
             // 
@@ -147,6 +148,7 @@
             this.txtStatEmpathy.Size = new System.Drawing.Size(50, 23);
             this.txtStatEmpathy.TabIndex = 69;
             this.txtStatEmpathy.Text = "0";
+            this.txtStatEmpathy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatBravery
             // 
@@ -156,6 +158,7 @@
             this.txtStatBravery.Size = new System.Drawing.Size(50, 23);
             this.txtStatBravery.TabIndex = 68;
             this.txtStatBravery.Text = "0";
+            this.txtStatBravery.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatComposure
             // 
@@ -165,6 +168,7 @@
             this.txtStatComposure.Size = new System.Drawing.Size(50, 23);
             this.txtStatComposure.TabIndex = 67;
             this.txtStatComposure.Text = "0";
+            this.txtStatComposure.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatEnergy
             // 
@@ -174,6 +178,7 @@
             this.txtStatEnergy.Size = new System.Drawing.Size(50, 23);
             this.txtStatEnergy.TabIndex = 66;
             this.txtStatEnergy.Text = "0";
+            this.txtStatEnergy.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatEthics
             // 
@@ -183,6 +188,7 @@
             this.txtStatEthics.Size = new System.Drawing.Size(50, 23);
             this.txtStatEthics.TabIndex = 65;
             this.txtStatEthics.Text = "0";
+            this.txtStatEthics.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label15
             // 
@@ -202,6 +208,7 @@
             this.txtStatMorality.Size = new System.Drawing.Size(50, 23);
             this.txtStatMorality.TabIndex = 63;
             this.txtStatMorality.Text = "0";
+            this.txtStatMorality.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label16
             // 
@@ -221,6 +228,7 @@
             this.txtStatMotivation.Size = new System.Drawing.Size(50, 23);
             this.txtStatMotivation.TabIndex = 61;
             this.txtStatMotivation.Text = "0";
+            this.txtStatMotivation.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label17
             // 
@@ -240,6 +248,7 @@
             this.txtStatCoolness.Size = new System.Drawing.Size(50, 23);
             this.txtStatCoolness.TabIndex = 59;
             this.txtStatCoolness.Text = "0";
+            this.txtStatCoolness.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label18
             // 
@@ -259,6 +268,7 @@
             this.txtStatAttitude.Size = new System.Drawing.Size(50, 23);
             this.txtStatAttitude.TabIndex = 57;
             this.txtStatAttitude.Text = "0";
+            this.txtStatAttitude.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnStoreStats
             // 
@@ -329,6 +339,7 @@
             this.txtStatTotal.Size = new System.Drawing.Size(50, 23);
             this.txtStatTotal.TabIndex = 50;
             this.txtStatTotal.Text = "0";
+            this.txtStatTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatWillpower
             // 
@@ -338,6 +349,7 @@
             this.txtStatWillpower.Size = new System.Drawing.Size(50, 23);
             this.txtStatWillpower.TabIndex = 49;
             this.txtStatWillpower.Text = "0";
+            this.txtStatWillpower.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatPsionic
             // 
@@ -347,6 +359,7 @@
             this.txtStatPsionic.Size = new System.Drawing.Size(50, 23);
             this.txtStatPsionic.TabIndex = 48;
             this.txtStatPsionic.Text = "0";
+            this.txtStatPsionic.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatLuck
             // 
@@ -356,6 +369,7 @@
             this.txtStatLuck.Size = new System.Drawing.Size(50, 23);
             this.txtStatLuck.TabIndex = 47;
             this.txtStatLuck.Text = "0";
+            this.txtStatLuck.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtStatCharisma
             // 
@@ -365,6 +379,7 @@
             this.txtStatCharisma.Size = new System.Drawing.Size(50, 23);
             this.txtStatCharisma.TabIndex = 46;
             this.txtStatCharisma.Text = "0";
+            this.txtStatCharisma.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -384,6 +399,7 @@
             this.txtStatDexterity.Size = new System.Drawing.Size(50, 23);
             this.txtStatDexterity.TabIndex = 44;
             this.txtStatDexterity.Text = "0";
+            this.txtStatDexterity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label4
             // 
@@ -403,6 +419,7 @@
             this.txtStatIntellect.Size = new System.Drawing.Size(50, 23);
             this.txtStatIntellect.TabIndex = 42;
             this.txtStatIntellect.Text = "0";
+            this.txtStatIntellect.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -422,6 +439,7 @@
             this.txtStatEndurance.Size = new System.Drawing.Size(50, 23);
             this.txtStatEndurance.TabIndex = 40;
             this.txtStatEndurance.Text = "0";
+            this.txtStatEndurance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -441,6 +459,7 @@
             this.txtStatStrength.Size = new System.Drawing.Size(50, 23);
             this.txtStatStrength.TabIndex = 38;
             this.txtStatStrength.Text = "0";
+            this.txtStatStrength.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // listRace
             // 

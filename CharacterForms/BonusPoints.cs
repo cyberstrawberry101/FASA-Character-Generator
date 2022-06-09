@@ -127,7 +127,31 @@ namespace FASA_Character_Generator
 
         private void btnStoreStats_Click(object sender, EventArgs e)
         {
+            //Store the character stats into the character stat class for use later
+            WindowJumper.WindowJumperInstance.CharacterStats.Attitude = int.Parse(txtStatAttitude.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Bravery = int.Parse(txtStatBravery.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Charisma = int.Parse(txtStatCharisma.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Composure = int.Parse(txtStatComposure.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Coolness = int.Parse(txtStatCoolness.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Dexterity = int.Parse(txtStatDexterity.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Empathy = int.Parse(txtStatEmpathy.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Endurance = int.Parse(txtStatEndurance.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Energy = int.Parse(txtStatEnergy.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Ethics = int.Parse(txtStatEthics.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Humility = int.Parse(txtStatHumility.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Intellect = int.Parse(txtStatIntellect.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Luck = int.Parse(txtStatLuck.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Morality = int.Parse(txtStatMorality.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Motivation = int.Parse(txtStatMotivation.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Psionic = int.Parse(txtStatPsionic.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Strength = int.Parse(txtStatStrength.Text);
+            WindowJumper.WindowJumperInstance.CharacterStats.Willpower = int.Parse(txtStatWillpower.Text);
 
+            //Move onto the Race Selection Form
+            var BackgroundSkillSelection = new BackgroundSkillSelection(); //create an instance of CharacteristicSelection
+            Hide();             //hide me (ServiceSelection)
+            BackgroundSkillSelection.Show();       //show CharacteristicSelection
+            Close();            //close me (ServiceSelection), since WindowJumper is the message loop - no problem.
         }
     }
 }

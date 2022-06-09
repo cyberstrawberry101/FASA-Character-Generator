@@ -263,7 +263,7 @@
             // btnStoreStats
             // 
             this.btnStoreStats.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnStoreStats.Location = new System.Drawing.Point(12, 352);
+            this.btnStoreStats.Location = new System.Drawing.Point(21, 355);
             this.btnStoreStats.Name = "btnStoreStats";
             this.btnStoreStats.Size = new System.Drawing.Size(75, 23);
             this.btnStoreStats.TabIndex = 56;

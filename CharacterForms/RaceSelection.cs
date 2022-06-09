@@ -193,5 +193,10 @@ namespace FASA_Character_Generator
             BonusPoints.Show();       //show CharacteristicSelection
             Close();            //close me (ServiceSelection), since WindowJumper is the message loop - no problem.
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

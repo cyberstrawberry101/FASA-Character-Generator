@@ -196,6 +196,7 @@
             this.btnStoreStats.TabIndex = 56;
             this.btnStoreStats.Text = "Accept";
             this.btnStoreStats.UseVisualStyleBackColor = true;
+            this.btnStoreStats.Click += new System.EventHandler(this.btnStoreStats_Click);
             // 
             // label9
             // 

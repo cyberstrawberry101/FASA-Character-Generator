@@ -66,15 +66,15 @@ namespace FASA_Character_Generator
         private void BonusPoints_Load(object sender, EventArgs e)
         {
             PopulateStatsFromClass();
-            //Take the intellect of the character, divide it in half, and store it as the bonus points
-            //Convert to a double in case numbers are odd and leave us with decimal points
-            double IntellectBonus = Convert.ToDouble(WindowJumper.WindowJumperInstance.CharacterStats.Intellect);
-
-            //Take the Intellect and divide in half, then round down
-            IntellectBonus = Math.Floor(IntellectBonus / 2);
-
+                Random bonusD100 = new Random();
+                double D100result = bonusD100.NextDouble() * 100;
+                D100result = D100result / 2;
+                if (D100result < 30)
+                {
+                D100result = 30;
+                }
             //Store the rounded-down value back into the bonus points window and into a global variable
-            txtBonusPoints.Text = IntellectBonus.ToString();
+            txtBonusPoints.Text = Convert.ToInt32(D100result).ToString();
         }
 
         private void CalculateDelta(string previousStat, string CurrentStat)
@@ -123,6 +123,11 @@ namespace FASA_Character_Generator
         private void txtStatPsionic_ValueChanged(object sender, EventArgs e)
         {
             CalculateDelta(((UpDownBase)sender).Text, ((NumericUpDown)sender).Value.ToString());
+        }
+
+        private void btnStoreStats_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

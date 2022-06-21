@@ -4,3 +4,9 @@ DesignTimeBuild
 FileContentIndex
 v17
 ProjectEvaluation
+.vs
+bin
+obj
+*.suo
+*.user
+packages
